@@ -8,7 +8,7 @@ VPC
 Public Subnet
 Private Subnet
 Internet Gateway
-Nat Gateway
+NAT Gateway
 Route table
 
 
