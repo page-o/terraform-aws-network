@@ -4,12 +4,12 @@ Terraform module to create common Network resources such as VPC/Subnets/Gateways
 
 Creates the following resources:
 
-VPC
-Public Subnet
-Private Subnet
-Internet Gateway
-NAT Gateway
-Route table
+- VPC
+- Public Subnet
+- Private Subnet
+- Internet Gateway
+- NAT Gateway
+- Route table
 
 
 ## Examples
@@ -95,7 +95,7 @@ module "hoge" {
 | vpc | VPC | `object` | - | yes |
 | vpc.cidr_block | VPC Cidr | `string` | - | yes |
 | vpc.name | VPC Name Tag | `string` | - | yes |
-| vpc.instance_tenancy | VPC Instance Tenancy setting | `string` | `"default"`` | no |
+| vpc.instance_tenancy | VPC Instance Tenancy setting | `string` | `default`` | no |
 | vpc.enable_dns_hostnames | VPC Enabling DNS Hostnames | `bool` | `true` | no |
 | vpc.enable_dns_support | VPC Enabling DNS Support | `bool` | `true` | no |
 | public_subnets | Public Subnets | `list(object)` | - | yes |
